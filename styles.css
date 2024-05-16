@@ -1,0 +1,156 @@
+h1 {
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+}
+
+h3 {
+  text-align: center;
+  color: #1A2BCC;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: linear-gradient(to left, rgb(163, 173, 219), rgb(19, 37, 202));
+  color: #fff;
+  padding: 10px 0;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner a {
+  margin-right: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#status-message {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menu-container {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+li a:hover {
+  background-color: #1A2BCC;
+  color: #ccc
+}
+
+.texto {
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65vh;
+  width: 90vw;
+}
+
+.textIndex{
+  text-align: center;
+}
+
+.image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.text {
+  flex: 2;
+  padding-left: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 50%;
+}
+
+a {
+  color: rgb(17, 7, 120);
+}
+
+footer {
+  background-image: linear-gradient(to left, rgba(163, 173, 219), rgb(19, 37, 202));
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
